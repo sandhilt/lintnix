@@ -2,6 +2,7 @@
   description = "Rust development environment";
 
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.05";
     utils.url = "github:numtide/flake-utils";
   };
   outputs =
